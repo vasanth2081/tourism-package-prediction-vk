@@ -19,7 +19,8 @@ except RepositoryNotFoundError:
     print(f"Space '{repo_id}' created.")
 
 api.upload_folder(
-    folder_path="/content/drive/My Drive/PGP GL/Advanced ML/week_3_mls/data",
+    #folder_path="/content/drive/My Drive/PGP GL/Advanced ML/week_3_mls/data",
+    folder_path="week_3_mls/data",
     repo_id=repo_id,
     repo_type=repo_type,
 )
