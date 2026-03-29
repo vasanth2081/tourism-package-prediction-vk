@@ -5,7 +5,7 @@ import os
 repo_id = "v-vasanth2009/tourism-package-prediction-28032026"
 repo_type = "dataset"
 
-# Initialize API client 
+# Initialize API client
 api = HfApi(token=os.getenv("HF_TOKEN"))
 
 # Step 1: Check if the space exists
