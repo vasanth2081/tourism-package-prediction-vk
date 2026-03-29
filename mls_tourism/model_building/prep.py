@@ -32,7 +32,7 @@ df.drop(columns=['CustomerID'], inplace=True)
 
 # Encoding the categorical 'Type' column
 label_encoder = LabelEncoder()
-#df['Type'] = label_encoder.fit_transform(df['Type'])
+
 for col in df.select_dtypes(include='object').columns:
     df[col] = label_encoder.fit_transform(df[col])
 

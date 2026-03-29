@@ -7,10 +7,10 @@ import joblib
 model_path = hf_hub_download(repo_id="v-vasanth2009/tourism-package-prediction-28032026", filename="best_tourism_prediction_model_v1.joblib")
 model = joblib.load(model_path)
 
-# Streamlit UI for Machine Failure Prediction
-st.title("Tourism Package Prediction App")
+# Streamlit UI for Tourism Package Purchase Prediction
+st.title("Tourism Package Purchase Prediction App")
 st.write("""
-This application predicts the likelihood of a Customer purchasing Wellness package based on customer and interaction data.
+This application predicts the likelihood of a Customer purchasing Wellness Tourism package based on customer and interaction data.
 Please enter the Customer and interaction data below to get a prediction.
 """)
 
