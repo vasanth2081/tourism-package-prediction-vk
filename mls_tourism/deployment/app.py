@@ -14,7 +14,7 @@ This application predicts the likelihood of a Customer purchasing Wellness packa
 Please enter the Customer and interaction data below to get a prediction.
 """)
 
-# User input
+# User inputs
 Age = st.number_input("Age", min_value=0, max_value=100, value=25)
 TypeofContact = st.selectbox("Type of Contact", ["Company Invited", "Self Enquiry"])
 CityTier = st.number_input("City Tier", min_value=1, max_value=3, value=2)

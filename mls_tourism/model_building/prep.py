@@ -23,7 +23,7 @@ for col in df.columns:
     else:
         df[col].fillna(df[col].median(), inplace=True)
 
-# Drop the unnammed : 0 column
+# Drop the unnammed : 0 column in dataset
 if 'Unnamed: 0' in df.columns:
     df.drop(columns=['Unnamed: 0'], inplace=True)
 
