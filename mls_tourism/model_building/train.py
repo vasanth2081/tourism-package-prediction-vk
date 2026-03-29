@@ -31,7 +31,6 @@ Xtest = pd.read_csv(Xtest_path)
 ytrain = pd.read_csv(ytrain_path)
 ytest = pd.read_csv(ytest_path)
 
-
 # One-hot encode 'Type' and scale numeric features
 numeric_features = [
     'Age',
